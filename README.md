@@ -6,6 +6,18 @@ Updated website from the supplied Netlify ZIP. Uploading this repository does no
 
 On this repository's GitHub page, select **Code → Download ZIP**, then extract it.
 
+## Click-only preview (no terminal)
+
+1. Use **Code → Download ZIP** on GitHub and extract the downloaded ZIP.
+2. Double-click **preview.html** in the extracted folder. It opens in your browser.
+3. Extract your ORIGINAL `netlify-site_1.zip` into a different folder.
+4. In the preview's yellow setup panel, click **Choose File** and select **index.html from that original folder**.
+5. Wait for **Ready!**, then use the search box. Internet access is required for live records.
+
+The original HTML is read locally for its existing API settings, never executed or uploaded. Settings remain only in the preview tab's memory. If you close or reload the tab, choose the original file again. This is a local preview; it does not deploy to Netlify. Chrome or Edge is recommended. Clipboard/pop-up permissions can differ for local files.
+
+The terminal instructions below are optional, for development or preparing a deployment.
+
 ## Configure locally first
 
 API credentials are intentionally excluded from GitHub. Keep your original `netlify-site_1.zip` (the ZIP you uploaded in chat). In a terminal in this extracted repository folder, run:
